@@ -1,0 +1,88 @@
+.orange-back {
+    width: 100%;
+    height: 300rpx;
+    position: relative;
+}
+
+.orange-back-image {
+    width: 100%;
+    height: 236rpx;
+    position: absolute;
+    top: 0rpx;
+}
+
+.orange-back-swiper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.swiper-index {
+    width: 100%;
+    height: 300rpx;
+    margin: auto;
+    overflow: hidden;
+}
+
+.orange-back-swiper-image {
+    width: 100%;
+    height: 300rpx;
+    z-index: 2;
+}
+
+.services-menu {
+    width: 720rpx;
+    margin: auto;
+    position: relative;
+    margin-top: 25rpx;
+    display: flex;
+    flex-wrap: wrap;
+    background: #f2f2f2;
+}
+
+.services-menu-list {
+    width: 330rpx;
+    height: 160rpx;
+    margin: 15rpx 15rpx;
+    background: white;
+    border-radius: 20rpx;
+    display: flex;
+    align-items: center;
+}
+
+.services-menu-img {
+    margin-left: 44rpx;
+}
+
+.services-menu-image {
+    width: 48rpx;
+    height: 48rpx;
+    vertical-align: middle;
+}
+
+.services-menu-content {
+    position: relative;
+}
+
+.services-menu-title {
+    font-size: 28rpx;
+    color: #101010;
+    font-weight: bold;
+    margin-left: 48rpx;
+}
+
+.services-menu-more {
+    font-size: 16rpx;
+    color: #999999;
+    margin-top: 10rpx;
+    display: block;
+}
+
+.services-menu-arrow {
+    width: 9rpx;
+    height: 12rpx;
+    display: block;
+    margin-top: 15rpx;
+    margin-left: 17rpx;
+}

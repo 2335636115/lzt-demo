@@ -1,0 +1,105 @@
+.orange-back {
+	width: 100%;
+	position: relative;
+	margin-top: -2rpx;
+	padding-top: 20px;
+	margin-bottom: 234rpx;
+}
+
+.orange-back-image {
+	width: 100%;
+	height: 262rpx;
+	position: absolute;
+	top: 0rpx;
+}
+
+.orange-back-introduce {
+	width: 690rpx;
+	background: white;
+	position: relative;
+	margin: auto;
+	border-radius: 20rpx;
+	padding: 30rpx 0rpx 14rpx 0rpx;
+}
+
+.introduce-img {
+	width: 630rpx;
+	height: 275rpx;
+	margin: auto;
+	overflow: hidden;
+	margin-bottom: 28rpx;
+}
+
+.introduce-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.introduce-list {
+	display: flex;
+	font-size: 24rpx;
+	padding: 23rpx 0rpx;
+	border-bottom: 1rpx solid #e8e8e8;
+}
+
+.introduce-list-title {
+	text-indent: 31rpx;
+	margin-right: 8rpx;
+}
+
+.introduce-list:nth-child(5) .introduce-list-content {
+	width: 478rpx;
+}
+
+.introduce-list:nth-child(6) {
+	border-bottom: none;
+}
+
+.introduce-list:nth-child(6) .introduce-list-content {
+	width: 478rpx;
+}
+
+.introduce-personal {
+	width: 690rpx;
+	min-height: 273rpx;
+	background: white;
+	position: relative;
+	margin: auto;
+	border-radius: 20rpx;
+	margin-top: 30rpx;
+}
+
+.personal-title {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #e8e8e8;
+	height: 83rpx;
+	line-height: 83rpx;
+	font-size: 32rpx;
+	font-weight: bold;
+}
+
+.personal-image-Introduction {
+	width: 53rpx;
+	height: 39rpx;
+	margin-top: 24rpx;
+	margin-left: 32rpx;
+	margin-right: 16rpx;
+}
+
+.personal-image-honor {
+	width: 48rpx;
+	height: 53rpx;
+	margin-top: 18rpx;
+	margin-left: 32rpx;
+	margin-right: 16rpx;
+}
+
+
+.personal-content{
+	font-size: 12px;
+	line-height: 18px;
+	padding: 10px 14px;
+}

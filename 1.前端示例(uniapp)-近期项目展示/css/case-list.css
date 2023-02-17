@@ -1,0 +1,284 @@
+.orange-back {
+	width: 100%;
+	height: 100rpx;
+	background: #f2f2f2;
+	padding-top: 24rpx;
+	display: block;
+}
+
+.search-content {
+	width: 690rpx;
+	height: 70rpx;
+	background: #ef7d2e;
+	border-radius: 40rpx;
+	margin: auto;
+	display: flex;
+}
+
+.search-input {
+	width: 590rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	color: white;
+	text-indent: 40rpx;
+	font-size: 28rpx;
+}
+
+.search-button {
+	width: 100rpx;
+	height: 70rpx;
+	border: none;
+	outline: none;
+	display: flex;
+}
+
+.search-button-glass {
+	width: 40rpx;
+	height: 40rpx;
+	margin-top: 16rpx;
+}
+
+.case-category {
+	width: 690rpx;
+	height: 105rpx;
+	margin: auto;
+	background: white;
+	border-radius: 20rpx;
+	display: flex;
+}
+
+.category-border {
+	width: 1rpx;
+	height: 24rpx;
+	background: #e0e0e0
+}
+
+.category-title {
+	width: 229.33rpx;
+	height: 100%;
+	text-align: center;
+	line-height: 105rpx;
+	font-size: 28rpx;
+}
+
+.category-border {
+	margin-top: 40.5rpx;
+}
+
+.category-title.active {
+	color: #ec6618;
+}
+
+.mediation {
+	width: 100%;
+	height: 88rpx;
+	line-height: 88rpx;
+	font-size: 32rpx;
+	border-bottom: 1rpx solid #e0e0e0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.mediation-content {
+	width: 690rpx;
+	height: 430rpx;
+	background: white;
+	border-radius: 20rpx;
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+	background: white;
+	margin-top: 20rpx;
+	justify-content: space-between;
+}
+
+.mediation-content-two {
+	width: 690rpx;
+	height: 516rpx;
+	background: white;
+	border-radius: 20rpx;
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+	background: white;
+	margin-top: 20rpx;
+	justify-content: space-between;
+}
+
+.color-ordinary {
+	border: 2rpx solid #f99961;
+}
+
+.color-emergency {
+	border: 2rpx solid #ffb801;
+}
+
+.color-urgent {
+	border: 2rpx solid #ec6618;
+}
+
+.mediation-list {
+	width: 100%;
+	margin-bottom: 92rpx;
+	margin-top: 26rpx;
+    padding-bottom: 40rpx;
+}
+
+.mediation-title {
+	font-size: 28rpx;
+	line-height: 58rpx;
+	font-weight: bold;
+}
+
+.mediation-content-detail {
+	flex-direction: column;
+	width: 100%;
+	margin: 26rpx 28rpx 35rpx 28rpx;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.mediation-content-detail-two {
+	width: 100%;
+	margin: 0rpx 28rpx 35rpx 28rpx;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.mediation-content-signature {
+	width: 140rpx;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.mediation-content-signature-title {
+	height: 43rpx;
+	font-size: 24rpx;
+	text-align: center;
+	line-height: 43rpx;
+	background: #eb6617;
+	color: white;
+	border-radius: 10rpx;
+	align-self: flex-end;
+	background: #f99961;
+	padding: 2rpx 23rpx;
+	margin-top: -2rpx;
+}
+
+.mediation-content-signature-titles {
+	height: 50rpx;
+	font-size: 24rpx;
+	text-align: center;
+	line-height: 50rpx;
+	color: white;
+	border-radius: 10rpx;
+	background: #f99961;
+	padding: 2rpx 23rpx;
+	margin-top: -2rpx;
+	width: 40%;
+}
+
+.detail-list {
+	font-size: 28rpx;
+	color: #9A9A9A;
+	line-height: 48rpx;
+	justify-content: space-between;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: flex;
+}
+
+.evaluation {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 30rpx;
+}
+
+.evaluation-button {
+	width: 120rpx;
+	height: 40rpx;
+	color: white;
+	font-size: 20rpx;
+	background: #ec6618;
+	border-radius: 10rpx;
+	text-align: center;
+	line-height: 40rpx;
+	margin-top: 24rpx;
+	margin-left: 19rpx;
+}
+
+.ordinary {
+	background: #f99961;
+}
+
+.emergency {
+	background: #ffb801;
+}
+
+.urgent {
+	background: #ec6618;
+}
+
+.ing {
+	background: #e57444;
+}
+
+.follow {
+	background: #7f83f7;
+}
+
+.forecast-time {
+	font-size: 28rpx;
+	width: 100%;
+	height: 88rpx;
+	line-height: 88rpx;
+	border-top: 1rpx solid #e0e0e0;
+	text-indent: 30rpx;
+	color: #4F4F4F;
+}
+
+.time-text {
+	color: #E57444;
+	padding: 2rpx 8rpx;
+	border-radius: 10rpx;
+	margin: 0 6rpx 0 10rpx;
+	font-weight: bold;
+}
+
+.yellow .evaluation-button {
+	background: #ffb801;
+}
+
+.orange .evaluation-button {
+	background: #ec6618;
+}
+
+.green .evaluation-button {
+	background: #69a845;
+}
+
+.evaluation-category {
+	font-size: 32rpx;
+	color: #4F4F4F;
+	text-indent: 30rpx;
+}
+
+.tag-a {
+	background: #93d2f3;
+}
+
+.tag-b {
+	background: #fcca00;
+}
+
+.tag-c {
+	background: #e57444;
+}
+
+.tag-d {
+	background: #9b7d31;
+}

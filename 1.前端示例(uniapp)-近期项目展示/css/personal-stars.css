@@ -1,0 +1,76 @@
+.txt-stars {
+	color: #ff9900;
+	font-size: 30rpx;
+	margin-left: 25rpx;
+}
+
+.starsicon {
+	width: 62rpx;
+	height: 62rpx;
+	margin: 0rpx 18rpx;
+}
+
+.stars {
+	width: 690rpx;
+	height: 450rpx;
+	background: white;
+	transform: translate(-50%, 0%);
+	margin-top: 50%;
+	left: 50%;
+	position: relative;
+	border-radius: 15rpx;
+	padding-top: 20rpx;
+	display: block;
+	overflow: hidden;
+}
+
+.stars-evaluation {
+	width: 100%;
+	text-align: center;
+	font-size: 44rpx;
+	line-height: 130rpx;
+	height: 132rpx;
+	font-weight: bold;
+}
+
+.starsicon-list {
+	display: flex;
+	justify-content: center;
+}
+
+.starsicon-results {
+	color: #666666;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 19px;
+}
+
+.starsicon-button {
+	width: 100%;
+	height: 43px;
+	position: absolute;
+	bottom: 0px;
+	display: flex;
+	font-size: 32rpx;
+}
+
+.starsicon-button-cancel {
+	background: #e0e0e0;
+	width: 50%;
+	display: flex;
+	line-height: 86rpx;
+	justify-content: center;
+	color: #999999;
+	font-weight: bold;
+}
+
+.starsicon-button-determine {
+	background: #ec6618;
+	width: 50%;
+	display: flex;
+	line-height: 86rpx;
+	justify-content: center;
+	color: white;
+	font-weight: bold;
+	border-radius: 0;
+}

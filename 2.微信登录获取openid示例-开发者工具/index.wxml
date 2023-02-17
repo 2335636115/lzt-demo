@@ -1,0 +1,5 @@
+<view class="container">
+  <image src="{{userInfo.avatarUrl}}" width="10" height="10" mode=""/>  <!-- 登录成功后，会显示头像 -->
+  <text>{{userInfo.nickName}}</text>  <!-- 登录成功后，会显示昵称 -->
+  <button bindtap="login">微信登录</button>  <!-- 点击登录后，触发方法“login” -->
+</view>

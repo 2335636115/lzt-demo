@@ -1,0 +1,88 @@
+.orange-back {
+	margin-bottom: 30px;
+}
+
+.mediators-list {
+	width: 690rpx;
+	height: 296rpx;
+	background: white;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 15rpx;
+	margin-bottom: 21rpx;
+}
+
+.mediators-img {
+	width: 256rpx;
+	height: 256rpx;
+	overflow: hidden;
+	object-fit: cover;
+	margin-top: 20rpx;
+	margin-left: 20rpx;
+}
+
+.mediators-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.mediators-detail {
+	margin-left: 26rpx;
+	width: 370rpx;
+}
+
+.mediators-detail-name {
+	width: 100%;
+	line-height: 74rpx;
+	border-bottom: 1rpx solid #e8e8e8;
+	margin-top: 11rpx;
+	color: #333333;
+	margin-bottom: 20rpx;
+	font-weight: bold;
+}
+
+.mediators-detail-list {
+	font-size: 28rpx;
+	line-height: 40rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.mediators-detail-more {
+	width: 130rpx;
+	height: 42rpx;
+	display: flex;
+}
+
+.mediators-detail-more-text {
+	font-size: 24rpx;
+}
+
+.mediators-detail-more-image {
+	width: 13rpx;
+	height: 20rpx;
+	margin-left: 20rpx;
+	margin-top: 6rpx;
+}
+
+.mediators-detail-bottom {
+	width: 100%;
+	height: 42rpx;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 26rpx;
+}
+
+.mediators-list-all {
+	width: 100%;
+	/* margin-bottom: 234rpx; */
+	margin-bottom: 122rpx;
+}
+
+.scrollview {
+	width: 100%;
+	/* height: 1195rpx; */
+}

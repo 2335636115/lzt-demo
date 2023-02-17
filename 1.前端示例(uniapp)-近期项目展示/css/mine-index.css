@@ -1,0 +1,206 @@
+.orange-back {
+    width: 100%;
+    height: 90rpx;
+    padding-top: 40rpx;
+    padding-bottom: 40rpx;
+    display: block;
+}
+
+.search-content {
+    width: 690rpx;
+    height: 90rpx;
+    border-radius: 10rpx;
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+    background: white;
+}
+
+.search-input {
+    width: 590rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    color: white;
+    text-indent: 40rpx;
+    font-size: 28rpx;
+    color: #9A9A9A;
+}
+
+.search-button {
+    width: 100rpx;
+    height: 70rpx;
+    border: none;
+    outline: none;
+    display: flex;
+}
+
+.search-button-glass {
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 27rpx;
+}
+
+.mine .uni-input-placeholder {
+    color: #9A9A9A !important;
+}
+
+.mediation {
+    width: 100%;
+    height: 88rpx;
+    line-height: 88rpx;
+    font-size: 28rpx;
+    border-bottom: 2rpx solid #F4F4F4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mediation-content {
+    width: 690rpx;
+    height: 340rpx;
+    background: white;
+    border-radius: 20rpx;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    background: white;
+    margin-bottom: 20rpx;
+    justify-content: space-between;
+}
+
+.mediation-list {
+    width: 100%;
+    margin-bottom: 92rpx;
+    padding-bottom: 20rpx;
+}
+
+.mediation-title {
+    font-size: 32rpx;
+    text-indent: 30rpx;
+    line-height: 88rpx;
+    font-weight: bold;
+    color: #4F4F4F;
+}
+
+.mediation-content-detail {
+    display: flex;
+    flex-direction: column;
+    width: 634rpx;
+    margin: 26rpx 28rpx 34rpx 28rpx;
+    position: relative;
+}
+
+.mediation-content-seal {
+    width: 153rpx;
+    height: 100%;
+}
+
+.mediation-content-signature {
+    width: 140rpx;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mediation-content-signature-title {
+    width: 103rpx;
+    height: 43rpx;
+    font-size: 19rpx;
+    text-align: center;
+    line-height: 43rpx;
+    background: #eb6617;
+    color: white;
+    border-radius: 10rpx;
+    align-self: flex-end;
+}
+
+.detail-list {
+    font-size: 28rpx;
+    color: #9A9A9A;
+    line-height: 50rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.evaluation {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30rpx;
+}
+
+.evaluation-button {
+    height: 40rpx;
+    color: white;
+    font-size: 20rpx;
+    background: #e57444;
+    border-radius: 10rpx;
+    text-align: center;
+    line-height: 40rpx;
+    margin-top: 24rpx;
+    padding: 0 24rpx;
+}
+
+.processing {
+    background: #e57444;
+}
+
+.emergency {
+    background: #ec2c18;
+}
+
+.mediation_open {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.seal-image {
+    width: 120rpx;
+    height: 120rpx;
+    top: 29rpx;
+    position: absolute;
+    right: 0px;
+}
+
+.people-back {
+    width: 100%;
+    height: 280rpx;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.back-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.head-image {
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    margin-left: 40rpx;
+}
+
+.head-image-right {
+    color: #FFFFFF;
+    line-height: 1.5;
+    font-size: 28rpx;
+    position: relative;
+    z-index: 2;
+    margin-left: 40rpx;
+}
+
+.user-name {
+    font-size: 36rpx;
+}
